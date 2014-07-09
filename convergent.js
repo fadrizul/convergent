@@ -3,7 +3,7 @@
 * Author: Fadrizul Hasani <fadrizul@grabtaxi.com>
 * Date: 2014-07-10 02:35:58
 * Modified by: fadrizul
-* Modified time: 2014-07-10 03:13:41
+* Modified time: 2014-07-10 03:39:13
 */
 
 (function () { 'use strict';
@@ -67,11 +67,11 @@
     console.log('=================================\n Result: \n=================================')
     console.log(' Concurrency level: %s', level);
     console.log(' Runtime: %s ms', runtime);
-    console.log(' interval: %s ms', interval);
+    console.log(' Interval: %s ms', interval);
     console.log(' Errors: %s', error);
     console.log(' Sucess: %s', success);
     console.log(' Timeout: %s', total - (success + error));
-    console.log(' Total: %s', total);
+    console.log(' Total requests: %s', total);
   }, runtime);
 
 
