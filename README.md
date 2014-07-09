@@ -4,6 +4,7 @@ Convergent
 Simple app to test HTTP currency level
 
 Steps to get started
+
 1. `npm install`
 2. Start mock server `node mock.server.js`
 3. Initiate the test `node convergent.js`
